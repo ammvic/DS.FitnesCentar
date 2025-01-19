@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: clanarine
+spec:
+  selector:
+    app: clanarine
+  ports:
+    - name: port1
+      port: 8082
+      targetPort: 8082
+    - name: port2
+      port: 8083
+      targetPort: 8083

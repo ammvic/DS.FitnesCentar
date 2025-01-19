@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: neo4j
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: neo4j
+  template:
+    metadata:
+      labels:
+        app: neo4j
+    spec:
+      containers:
+      - name: neo4j
+        image: ammvic/neo4j
+        imagePullPolicy: Always
+        env:
+        - name: NEO4J_AUTH
+          value: neo4j/Amina1234.
+        ports:
+        - containerPort: 7474
+        - containerPort: 7687
+        volumeMounts:
+        - name: neo4j-storage
+          mountPath: /data
+      volumes:
+      - name: neo4j-storage
+        persistentVolumeClaim:
+          claimName: neo4j-pvc

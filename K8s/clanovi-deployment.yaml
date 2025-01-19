@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clanovi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: clanovi
+  template:
+    metadata:
+      labels:
+        app: clanovi
+    spec:
+      containers:
+      - name: clanovi
+        image: ammvic/clanovi
+        imagePullPolicy: Always
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          value: Development
+        - name: ASPNETCORE_URLS
+          value: http://+:8080;http://+:8081
+        ports:
+        - containerPort: 8080
+        - containerPort: 8081

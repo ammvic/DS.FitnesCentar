@@ -1,0 +1,141 @@
+
+services:
+  postgres:
+    container_name: "postgres"
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Amina123.
+      - POSTGRES_DB=clanoviFC
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    healthcheck:
+        test: ["CMD-SHELL", "pg_isready -U postgres"]
+        interval: 5s
+        timeout: 5s
+        retries: 5
+    networks:
+      - my_custom_network
+
+
+  mongodb:
+    container_name: "mongodb"
+    image: mongo:6.0
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data/mongodb:/data/db
+    networks:
+      - my_custom_network
+
+  neo4j:
+    container_name: "neo4j"
+    image: neo4j:5.7
+    ports:
+      - 7474:7474
+      - 7687:7687
+    environment:
+      - NEO4J_AUTH=neo4j/Amina1234.
+    volumes:
+      - ./data/neo4j:/data
+    networks:
+      - my_custom_network
+
+  rabbitmq:
+    container_name: "rabbitmq"
+    image: rabbitmq:management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    volumes:
+      - ./data/rabbitmq:/var/lib/rabbitmq
+    networks:
+      - my_custom_network
+
+  api-gateway:
+    container_name: "api-gateway"
+    build:
+      context: .
+      dockerfile: Api.Gateway/Api.Gateway/Dockerfile
+    ports:
+      - 8086:8086
+      - 8087:8087
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8086;http://+:8087
+    depends_on:
+      - clanovi
+      - clanarine
+      - email
+    networks:
+      - my_custom_network
+    
+
+  clanovi:
+    container_name: "clanovi"
+    build:
+      context: .
+      dockerfile: Mikroservis.Clanovi/Mikroservis.Clanovi/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080;http://+:8081
+    ports:
+      - 8080:8080
+      - 8081:8081
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+    depends_on:
+       postgres:
+        condition: service_healthy
+    networks:
+      - my_custom_network
+    
+
+  clanarine:
+    container_name: "clanarine"
+    build:
+      context: .
+      dockerfile: Mikroservis.Clanarine/Dockerfile
+    volumes:
+      - ./Mikroservis.Clanarine/.env:/app/.env
+    environment:
+      - ENV_FILE_PATH=/app/.env
+    ports:
+      - 8082:8082
+      - 8083:8083
+    depends_on:
+      - mongodb
+    networks:
+      - my_custom_network
+    
+
+  email:
+    container_name: "email"
+    build:
+      context: .
+      dockerfile: Mikroservis.Email/Mikroservis.Email/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8084;http://+:8085
+    ports:
+      - 8084:8084
+      - 8085:8085
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+    depends_on:
+      - neo4j
+      - rabbitmq
+    networks:
+      - my_custom_network
+    
+
+networks:
+  my_custom_network:
+    driver: bridge

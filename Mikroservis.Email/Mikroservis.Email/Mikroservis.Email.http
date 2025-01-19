@@ -1,0 +1,6 @@
+@Mikroservis.Email_HostAddress = http://localhost:5046
+
+GET {{Mikroservis.Email_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

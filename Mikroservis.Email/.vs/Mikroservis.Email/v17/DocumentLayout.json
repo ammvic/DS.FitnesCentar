@@ -1,0 +1,272 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|c:\\users\\laptop\\desktop\\3.faza\\mikroservis.email\\mikroservis.email\\persistence\\rabbitmqlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|solutionrelative:mikroservis.email\\persistence\\rabbitmqlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|c:\\users\\laptop\\desktop\\3.faza\\mikroservis.email\\mikroservis.email\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|solutionrelative:mikroservis.email\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|c:\\users\\laptop\\desktop\\3.faza\\mikroservis.email\\mikroservis.email\\mikroservis.email.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|solutionrelative:mikroservis.email\\mikroservis.email.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|c:\\users\\laptop\\desktop\\3.faza\\mikroservis.email\\mikroservis.email\\persistence\\emaildbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|solutionrelative:mikroservis.email\\persistence\\emaildbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|c:\\users\\laptop\\desktop\\3.faza\\mikroservis.email\\mikroservis.email\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|solutionrelative:mikroservis.email\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|c:\\users\\laptop\\desktop\\3.faza\\mikroservis.email\\mikroservis.email\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|solutionrelative:mikroservis.email\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|c:\\users\\laptop\\desktop\\3.faza\\mikroservis.email\\mikroservis.email\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|solutionrelative:mikroservis.email\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|c:\\users\\laptop\\desktop\\3.faza\\mikroservis.email\\mikroservis.email\\mikroservis.email.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|solutionrelative:mikroservis.email\\mikroservis.email.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|c:\\users\\laptop\\desktop\\3.faza\\mikroservis.email\\mikroservis.email\\models\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|solutionrelative:mikroservis.email\\models\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|c:\\users\\laptop\\desktop\\3.faza\\mikroservis.email\\mikroservis.email\\models\\emaillog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE04460-2C6A-4414-B61B-40E7A33B7175}|Mikroservis.Email\\Mikroservis.Email.csproj|solutionrelative:mikroservis.email\\models\\emaillog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Laptop\\Desktop\\DS.trecaFaza\\Api.Gateway\\MikroservisAsihroni.Email\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Laptop\\Desktop\\DS.trecaFaza\\Api.Gateway\\MikroservisAsihroni.Email\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 299,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "Mikroservis.Email\\Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Service\\EmailService.cs",
+              "RelativeToolTip": "Mikroservis.Email\\Service\\EmailService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T11:58:38.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RabbitMqListener.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Persistence\\RabbitMqListener.cs",
+              "RelativeDocumentMoniker": "Mikroservis.Email\\Persistence\\RabbitMqListener.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Persistence\\RabbitMqListener.cs",
+              "RelativeToolTip": "Mikroservis.Email\\Persistence\\RabbitMqListener.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T11:56:41.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Persistence\\EmailDbContext.cs",
+              "RelativeDocumentMoniker": "Mikroservis.Email\\Persistence\\EmailDbContext.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Persistence\\EmailDbContext.cs",
+              "RelativeToolTip": "Mikroservis.Email\\Persistence\\EmailDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T11:56:12.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Mikroservis.Email.http",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Mikroservis.Email.http",
+              "RelativeDocumentMoniker": "Mikroservis.Email\\Mikroservis.Email.http",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Mikroservis.Email.http",
+              "RelativeToolTip": "Mikroservis.Email\\Mikroservis.Email.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-18T11:55:27.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Models\\EmailRequest.cs",
+              "RelativeDocumentMoniker": "Mikroservis.Email\\Models\\EmailRequest.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Models\\EmailRequest.cs",
+              "RelativeToolTip": "Mikroservis.Email\\Models\\EmailRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T11:54:11.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Dockerfile",
+              "RelativeDocumentMoniker": "Mikroservis.Email\\Dockerfile",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Dockerfile",
+              "RelativeToolTip": "Mikroservis.Email\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-18T11:36:50.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mikroservis.Email.csproj",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Mikroservis.Email.csproj",
+              "RelativeDocumentMoniker": "Mikroservis.Email\\Mikroservis.Email.csproj",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Mikroservis.Email.csproj",
+              "RelativeToolTip": "Mikroservis.Email\\Mikroservis.Email.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-18T11:35:02.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailLog.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Models\\EmailLog.cs",
+              "RelativeDocumentMoniker": "Mikroservis.Email\\Models\\EmailLog.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Models\\EmailLog.cs",
+              "RelativeToolTip": "Mikroservis.Email\\Models\\EmailLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T11:53:35.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Program.cs",
+              "RelativeDocumentMoniker": "Mikroservis.Email\\Program.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\Program.cs",
+              "RelativeToolTip": "Mikroservis.Email\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T11:33:39.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\DS.trecaFaza\\Api.Gateway\\MikroservisAsihroni.Email\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\DS.trecaFaza\\Api.Gateway\\MikroservisAsihroni.Email\\Program.cs",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\DS.trecaFaza\\Api.Gateway\\MikroservisAsihroni.Email\\Program.cs",
+              "RelativeToolTip": "..\\..\\DS.trecaFaza\\Api.Gateway\\MikroservisAsihroni.Email\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T11:33:34.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\appsettings.json",
+              "RelativeDocumentMoniker": "Mikroservis.Email\\appsettings.json",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\3.faza\\Mikroservis.Email\\Mikroservis.Email\\appsettings.json",
+              "RelativeToolTip": "Mikroservis.Email\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-18T11:33:29.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Laptop\\Desktop\\DS.trecaFaza\\Api.Gateway\\MikroservisAsihroni.Email\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\DS.trecaFaza\\Api.Gateway\\MikroservisAsihroni.Email\\appsettings.json",
+              "ToolTip": "C:\\Users\\Laptop\\Desktop\\DS.trecaFaza\\Api.Gateway\\MikroservisAsihroni.Email\\appsettings.json",
+              "RelativeToolTip": "..\\..\\DS.trecaFaza\\Api.Gateway\\MikroservisAsihroni.Email\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-18T11:33:20.109Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

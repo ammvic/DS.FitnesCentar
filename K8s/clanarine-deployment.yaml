@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clanarine
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: clanarine
+  template:
+    metadata:
+      labels:
+        app: clanarine
+    spec:
+      containers:
+      - name: clanarine
+        image: ammvic/clanarine
+        imagePullPolicy: Always
+        env:
+        - name: ENV_FILE_PATH
+          value: /app/.env
+        ports:
+        - containerPort: 8082
+        - containerPort: 8083
+        volumeMounts:
+        - name: env-file
+          mountPath: /app/.env
+          subPath: .env
+      volumes:
+      - name: env-file
+        configMap:
+          name: clanarine-config
