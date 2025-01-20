@@ -14,7 +14,11 @@ spec:
     spec:
       containers:
       - name: neo4j
+<<<<<<< HEAD
         image: ammvic/neo4j
+=======
+        image: neo4j:5.7
+>>>>>>> 50ef361 (Izmena K8s foldera)
         imagePullPolicy: Always
         env:
         - name: NEO4J_AUTH

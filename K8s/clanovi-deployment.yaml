@@ -14,7 +14,11 @@ spec:
     spec:
       containers:
       - name: clanovi
+<<<<<<< HEAD
         image: ammvic/clanovi
+=======
+        image: ammvic/3faza-clanovi
+>>>>>>> 50ef361 (Izmena K8s foldera)
         imagePullPolicy: Always
         env:
         - name: ASPNETCORE_ENVIRONMENT

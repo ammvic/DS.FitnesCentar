@@ -14,7 +14,11 @@ spec:
     spec:
       containers:
       - name: api-gateway
+<<<<<<< HEAD
         image: ammvic/api-gateway
+=======
+        image: ammvic/3faza-api-gateway
+>>>>>>> 50ef361 (Izmena K8s foldera)
         imagePullPolicy: Always
         env:
         - name: ASPNETCORE_ENVIRONMENT
