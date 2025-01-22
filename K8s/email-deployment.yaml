@@ -14,11 +14,7 @@ spec:
     spec:
       containers:
       - name: email
-<<<<<<< HEAD
-        image: ammvic/email
-=======
         image: ammvic/3faza-email
->>>>>>> 50ef361 (Izmena K8s foldera)
         imagePullPolicy: Always
         env:
         - name: ASPNETCORE_ENVIRONMENT

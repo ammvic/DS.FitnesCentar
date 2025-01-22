@@ -14,11 +14,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-<<<<<<< HEAD
-        image: ammvic/rabbitmq
-=======
         image: rabbitmq:management
->>>>>>> 50ef361 (Izmena K8s foldera)
         imagePullPolicy: Always
         env:
         - name: RABBITMQ_DEFAULT_USER

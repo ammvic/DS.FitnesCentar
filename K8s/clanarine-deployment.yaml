@@ -14,11 +14,7 @@ spec:
     spec:
       containers:
       - name: clanarine
-<<<<<<< HEAD
-        image: ammvic/clanarine
-=======
         image: ammvic/3faza-clanarine
->>>>>>> 50ef361 (Izmena K8s foldera)
         imagePullPolicy: Always
         env:
         - name: ENV_FILE_PATH
@@ -33,8 +29,6 @@ spec:
       volumes:
       - name: env-file
         configMap:
-<<<<<<< HEAD
           name: clanarine-config
-=======
-          name: clanarine-config
->>>>>>> 50ef361 (Izmena K8s foldera)
+
+    

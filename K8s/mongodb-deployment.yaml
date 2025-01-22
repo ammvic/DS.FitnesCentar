@@ -14,11 +14,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-<<<<<<< HEAD
-        image: ammvic/mongodb
-=======
         image: mongo:6.0
->>>>>>> 50ef361 (Izmena K8s foldera)
         imagePullPolicy: Always
         ports:
         - containerPort: 27017
